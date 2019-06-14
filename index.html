@@ -3,28 +3,59 @@
   <head>
     <meta charset="utf-8">
     <title>Test Page: Don't Panic</title>
+    <style>
+      div a {
+        color: black;
+      }
+
+      a {
+        color: red;
+      }
+      div {
+        border: 1px solid black;
+        }
+      #exec-bio {
+        background-color: lightgray;
+        }
+        .bio-box{
+          border: 1px solid black;
+        }
+        .bio-box a {
+          color: orange;
+        }
+        .bio-box1 a {
+          color: blue; border: solid black; background-color: orange;
+        }
+        #figadel {
+          background-color: azure; border: white; color: brown; font-size: 20pt
+        }
+        </style>
   </head>
   <body>
     <h1>I'm an h1</h1>
     <ul>
       <li>
-        <a href="https://example.com/" style:"color: red;">link</a>
+      <a href="https://example.com/">link</a>
       </li>
       <li>
-        <a href="https://example.com/" style:"color: red;">link</a>
+        <a href="https://example.com/">link</a>
       </li>
       <li>
-        <a href="https://example.com/" style:"color: red;">link</a>
+        <a href="https://example.com/">link</a>
       </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div style="border: 1px solid black;"> <a href="https://example.com/" style="color: green;">I'm a link</a>
+    <div id="exec-bio" class="bio-box">
+      <a href="https://example.com/">I'm a link</a>
     </div>
-    <div style="border: 1px solid black;"> <a href="https://example.com/" style="color: green;">I'm a link</a>
+    <div class="bio-box">
+      <a href="https://example.com/">I'm a link</a>
     </div>
-    <div style="border: 1px solid black;"> <a href="https://example.com/" style="color: green;">I'm a link</a>
+    <div id="figadel">
+      <a href="https://example.com/">I'm a link</a>
     </div>
-    <div style="border: 1px solid black;"> <a href="https://example.com/" style="color: green;">I'm a link</a>
+    <div class="bio-box1">
+      <a href="https://example.com/">I'm a link</a>
     </div>
 </body>
 </html>
